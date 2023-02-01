@@ -40,18 +40,31 @@
         font-size: 20px;
         cursor: pointer;
       }
+      /* style the image element */
+      img {
+        display: block;
+        margin: 20px auto;
+        width: 500px;
+        height: 500px;
+      }
     </style>
 
     <!-- Scripts -->
     <script>
       // alert a message
-      alert("Hello world!");
+      function alertMessage() {
+        return alert("Hello world!");
+      }
     </script>
   </head>
   <body>
-    <div>Hello world!</div>
+    <!-- Div element -->
+    <div>HTML to Introduction!</div>
 
     <!-- Button to alert a message -->
-    <button onclick="alert()">Click me!</button>
+    <button onclick="alertMessage()">Click me!</button>
+
+    <!-- Image -->
+    <img src="tds.jpeg" alt="TDS" />
   </body>
 </html>
