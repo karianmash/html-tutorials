@@ -8,66 +8,8 @@
     <link rel="icon" href="tds.jpeg" type="image/x-icon" />
     <title>HTML Elements</title>
 
-    <!-- Styles -->
-    <style>
-      * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0.2rem;
-      }
-      hr {
-        margin: 1.5rem 0;
-      }
-      body {
-        background-color: rgb(6, 124, 104);
-      }
-      /* center title class with padding top and bottom of 0.6rem */
-      .title {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin: 0 auto;
-        padding: 0.6rem 0;
-        width: 500px;
-        font-size: 20px;
-        font-weight: 800;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-      }
-      /* style h1 */
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        margin-bottom: 1.5rem;
-      }
-      /* style p */
-      p {
-        margin-bottom: 1.5rem;
-      }
-      /* style the button element */
-      button {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        font-size: 20px;
-        cursor: pointer;
-      }
-      /* style the image element */
-      img {
-        display: block;
-        margin: 1.5rem 0;
-        width: 300px;
-        height: 300px;
-      }
-    </style>
+    <!-- link to style.css -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- 1 Heading element -->
@@ -117,21 +59,43 @@
     <hr size="4" color="black" />
     <!-- --------------------------------------------------------------------- -->
 
-    <!-- Button element -->
+    <!-- 3 Button element -->
     <div class="title">Button element</div>
     <button onclick="alert('Hello there!')">Click me!</button>
     <hr size="4" color="black" />
     <!-- --------------------------------------------------------------------- -->
 
-    <!-- Image element -->
+    <!-- 4 Image element -->
     <div class="title">Image element</div>
     <img src="tds.jpeg" alt="TDS" />
     <hr size="4" color="black" />
     <!-- --------------------------------------------------------------------- -->
 
-    <!-- 3 Anchor element -->
+    <!-- 5 Anchor element -->
     <div class="title">Anchor element</div>
     <a href="https://www.google.com/">Google</a>
+    <hr size="4" color="black" />
+    <!-- --------------------------------------------------------------------- -->
+
+    <!-- 6 Table element -->
+    <div class="title">Table element</div>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
     <hr size="4" color="black" />
     <!-- --------------------------------------------------------------------- -->
   </body>
