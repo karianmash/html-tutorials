@@ -140,3 +140,10 @@ textarea {
   border-radius: 5px;
   margin-bottom: 1rem;
 }
+/* style the video element */
+video {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 300px;
+}
