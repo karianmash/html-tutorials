@@ -168,3 +168,24 @@ progress {
   width: 300px;
   height: 100px;
 }
+/* style the meter element */
+meter {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 100px;
+}
+/* style the details element */
+details {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 100px;
+}
+/* style the summary element */
+summary {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 100px;
+}
