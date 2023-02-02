@@ -82,3 +82,8 @@ th {
   color: white;
   border: 1px solid #ddd;
 }
+/* style the ul and ol element */
+ul,
+ol {
+  margin-bottom: 1.5rem;
+}
