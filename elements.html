@@ -129,5 +129,37 @@
 
     <hr size="4" color="black" />
     <!-- --------------------------------------------------------------------- -->
+
+    <!-- 8 Form element -->
+    <div class="title">Form element</div>
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br /><br />
+
+      <label for="country">Country:</label><br />
+      <!-- Select gives users an option to choose from a variety of option -->
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+      <br /><br />
+
+      <label for="subject">Subject:</label><br />
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="Write something.."
+        style="height: 200px"
+      ></textarea>
+      <br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+    <hr size="4" color="black" />
+    <!-- --------------------------------------------------------------------- -->
   </body>
 </html>
