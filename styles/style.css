@@ -207,3 +207,78 @@ footer {
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
+/* style the header element and it's content */
+header {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* style the nav element and it's content */
+nav {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* style the section element and it's content */
+section {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* style the article element and it's content */
+article {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* style the article element */
+article {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* style the main element */
+main {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+/* style the time element */
+time {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 100px;
+}
+/* style the code element */
+code {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 100px;
+}
+/* style the blockquote element */
+blockquote {
+  display: block;
+  margin: 1.5rem 0;
+  width: 300px;
+  height: 100px;
+}
